@@ -1,0 +1,88 @@
+/*Passed http://jigsaw.w3.org/css-validator/validator Validation with exception of known font-family shorthand error in validators.*/
+
+@font-face {
+	font-family: 'facebook';
+	src: url('../fonts/facebook.ttf') format('truetype');
+}
+
+body, h1, ul, li, b, p {
+	font-family: 'Verdana' 'Arial' sans-serif;
+	margin:0;
+	padding:0;
+}
+
+b{
+	color: #39629c;
+	font-size: 10px;
+}
+
+ul{
+	list-style: none;
+}
+
+nav {
+	background-color: #39629c;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px; 
+	color: white;
+	height: 30px;
+}
+
+#logo {
+	font-family: 'facebook';
+	font-size: 20px;
+	line-height: 20px;
+	padding: 7px 0 5px 12px;
+}
+
+.calendar {
+	margin-top: 50px;
+	position: relative;
+	width: 720px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.event {
+	background-color: white;
+	border-left: 3px solid #39629c;
+	height: 30px;
+	outline: 1px solid #ccc;
+	overflow: hidden;
+	position: absolute;
+	width: 297px;
+}
+
+.events { 
+	background-color: #ececec;
+	float: right;
+	height: 720px;
+	padding: 0 10px;
+	position: relative;
+	width: 600px;
+}
+
+.time {
+	color: #5e5e5e;
+	font-size: 10px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.times {
+	float: left;
+	height: 720px;
+	padding: 0 5px;
+	width: 90px;
+}
+
+.small, p {
+	color: #b9b9b9;
+	font-size: 6px;
+	font-weight: normal;
+}
