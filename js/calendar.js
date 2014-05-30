@@ -25,7 +25,6 @@
 
       //Foreach event in events check for intersection with the last event in the subGroup, push the current event and keep track of the current max end time
     _.forEach(events, function(event, index){
-
       if(event.start >= subGroup.end || eventSubgroups.length === 0) {
         eventSubgroups.push({columns: [{end: 0}], end: 0});
         subGroup = _.last(eventSubgroups);
